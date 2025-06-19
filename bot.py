@@ -71,7 +71,7 @@ while not imagem_encontrada:
     except pyautogui.ImageNotFoundException:
         # Caso a imagem não seja encontrada, role a tela para baixo e continue
         print("Rolando a tela até encontrar....")
-        pyautogui.scroll(-100)
+        pyautogui.scroll(-300)
         time.sleep(3)
         
         # Incrementar contador de tentativas (opcional)
